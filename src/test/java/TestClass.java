@@ -11,7 +11,7 @@ public static void main(String[]args){
 
     driver.get("https://www.facebook.com");
     driver.findElement(By.id("email")).sendKeys("vpusewwandi@gmail.com");
-    driver.findElement(By.id("pass")).sendKeys("uresha");
+    driver.findElement(By.id("pass")).sendKeys("uresha19");
     driver.findElement(By.id("loginbutton")).click();
     System.out.println("logged in successfully");
     driver.get("https://www.google.lk/");
